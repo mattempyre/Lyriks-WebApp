@@ -11,6 +11,9 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  rules: {
+    'jsx-quotes': [2, 'prefer-single'],
+  }
   plugins: ['react'],
   rules: {
     'max-len': 0,
